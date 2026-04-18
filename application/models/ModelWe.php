@@ -1,5 +1,5 @@
 <?php
-class Model_We extends Model {
+class ModelWe extends Model {
     public function get_data() {
         return [
             "Разработка сайтов под ключ",

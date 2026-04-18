@@ -1,15 +1,15 @@
 <?php
 
-class Controller_We extends Controller { 
+class ControllerWe extends Controller { 
 
     // Конструктор должен быть ВНУТРИ класса
     function __construct() {
         // Создаем модель и вьюху
-        $this->model = new Model_We();
+        $this->model = new ModelWe();
         $this->view = new View();
     }
 
-    function action_index() { 
+    function actionIndex() { 
         // 1. Получаем данные из модели
         $data = $this->model->get_data();
 
